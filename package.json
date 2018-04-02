@@ -1,0 +1,27 @@
+{
+  "name": "poc-rethinkdb",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "precommit": "pretty-quick --staged",
+    "start": "node ./server.js",
+    "dev": "nodemon ./server.js"
+  },
+  "dependencies": {
+    "bcrypt": "1.0.3",
+    "bluebird": "3.5.1",
+    "body-parser": "1.18.2",
+    "cors": "2.8.4",
+    "dotenv": "5.0.1",
+    "express": "4.16.3",
+    "helmet": "3.12.0",
+    "jwt-simple": "0.5.1",
+    "moment": "2.22.0",
+    "morgan": "1.9.0",
+    "nodemon": "1.17.3",
+    "prettier": "1.11.1",
+    "pretty-quick": "1.4.1",
+    "rethinkdb": "2.3.3",
+    "socket.io": "2.1.0"
+  }
+}

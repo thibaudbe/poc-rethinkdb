@@ -1,0 +1,7 @@
+README.md
+/doc
+/package-lock.json
+/package.json
+/yarn.
+*.json
+*.log
